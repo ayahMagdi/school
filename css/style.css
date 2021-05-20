@@ -208,11 +208,13 @@ hr
 
 .footer
 {
-	height: 80px;
+	/*height: 80px;*/
 	background: #FFF;
 	text-align: center;
 	margin-top: 30px;
-	line-height: 80px
+	padding-top: 30px;
+	padding-bottom: 15px
+	/*line-height: 80px*/
 }
 .footer p
 {
