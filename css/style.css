@@ -1,0 +1,238 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	background: #dee2e654;
+	font-family: 'Cairo', sans-serif;
+	height: 2000px
+}
+
+
+/*start navbar*/
+
+.navbar-light
+{
+	background: #FFF
+}
+.navbar-light .navbar-brand 
+{
+    color: rgba(0,0,0,.9);
+    /*text-align: right;*/
+    width: 100%;
+    margin-right: 0
+    /*position: relative;*/
+}
+.navbar-light .navbar-brand .title
+{
+    font-size: 45px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding-right: 68px;
+    padding-bottom: 23px;
+    color: #dc3545;
+    position: relative;
+}
+.navbar-light .navbar-brand img
+{
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+}
+
+
+/*end navbar*/
+
+/*start header*/
+
+.header
+{
+	padding: 30px 0
+}
+.header .header-content .header-title
+{
+	color: #ffffffe0;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: italic;
+    padding-right: 18px;
+    border-right: 4px solid #dc3545;
+    background: linear-gradient(to left , #0040858c , #dc3545);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: .7;
+    border-radius: 10px;
+    margin: 0;
+    margin: 10px 0
+}
+.header .header-content .header-list,
+.about-school 
+{
+	margin: 0;
+	padding: 0
+}
+.header .header-content .header-description,
+.header .header-content .header-list li
+{
+	font-size: 19px;
+    line-height: 1.8;
+    /* text-align: center; */
+    color: #3c3535;
+    padding: 10px 0px 10px 10px;
+    margin: 0
+}
+.header .header-content .header-list li
+{
+	padding: 5px 0 
+}
+
+
+/*end header*/
+
+
+/* start schools information */
+
+hr
+{
+    border: 1px solid #dc35451f;
+    width: 50%;
+    margin-bottom: 45px;
+}
+.card
+{
+	width: 100%!important;
+	margin-bottom: 30px
+}
+.card img
+{
+	height: 194.66px
+}
+.card-title
+{
+	position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFF;
+    padding: 10px 15px;
+    font-weight: bold;
+    background: rgba(220, 53, 69,.6)
+}
+.card-text
+{
+	font-size: 15px;
+    line-height: 1.8;
+    color: #3c3535;
+}
+.about-school li 
+{
+	border: 1px solid #EEE;
+	height: 50px;
+	line-height: 50px;
+	padding-right: 10px
+}
+.about-school li p
+{
+	color: #dc3545;
+	font-size: 14px;
+	font-weight: bold;
+}
+.about-school li p i
+{
+	padding-left: 5px;
+	font-size: 15px;
+	opacity: .3
+}
+.about-school li p i.fa-phone
+{
+	/*transform: rotate(180deg);*/
+}
+.about-school li p span
+{
+	font-weight: normal;
+	color: #3c3535;
+	font-size: 14px
+}
+.card-body
+{
+	/*position: relative;*/
+	/*height: 65px;*/
+	/*padding: 0;*/
+	/*line-height: 65px*/
+}
+.card-body .card-link 
+{
+	border-radius: 50%;
+	background: #000;
+	width: 40px;
+	height: 40px;
+	/*margin-left: 0;*/
+	color: #FFF;
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px
+	/*position: absolute;*/
+}
+.card-body .card-link.at
+{
+	background: #BA0000
+}
+.card-body .card-link.facebook
+{
+	background: #3b5998
+}
+.card-body .card-link.website
+{
+	background: #00acee
+}
+.card-body .card-link.instagram
+{
+	background: #E1306C
+}
+.card-body .card-link.map
+{
+	background: #1EA362
+}
+.card-body .card-link i
+{
+	font-size: 20px;
+}
+
+/* start schools information  */
+
+/*start footer*/
+
+.footer
+{
+	height: 80px;
+	background: #FFF;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 80px
+}
+.footer p
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #3c3535
+}
+.footer p a
+{
+	cursor: pointer;
+	text-decoration: underline;
+	color: #dc3545
+}
+
+/*end footer*/
+
+
+
+
+
+
+
+
